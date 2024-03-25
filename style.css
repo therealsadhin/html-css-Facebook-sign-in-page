@@ -1,0 +1,106 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif ;
+}
+.container{
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    /* border: 4px solid yellow; */
+    
+}
+.container .left-container h1{
+    color: #0866ff;
+    font-size: 70px;
+}
+.left-container{
+    margin: 200px 100px;
+    margin-left: 150px;
+
+}
+.container .left-container p{
+    font-size: 30px;
+    font-family: sans-serif;
+}
+.right-container{
+    position: relative;
+    margin-right: 290px;
+    padding-left: 200px;
+}
+.form-container{
+   position: absolute;
+   top: 30%;
+   left: 50%;
+   transform: translate(-50% -50%);
+   border: 0px solid white;
+   box-shadow: 1px 2px 7px ;
+   border-radius: 10px;
+   outline: none;
+   height: 350px;
+   width: 270px;
+   padding: 20px;
+
+
+}
+.input{
+    display: block;
+    margin: 20px 0px 28px;
+    width: 230px;
+    border: 1px solid rgb(223, 215, 215);
+    border-radius: 10px;
+    padding: 500px;
+}
+.email{
+    padding: 10px;
+}
+.password{
+    padding: 10px;
+}
+.button{
+    padding: 7px;
+    width: 230px;
+    height: 40px;
+    background-color: #0866ff;
+    color: white;
+    border-radius: 7px;
+}
+a{
+    text-decoration: none;
+    color: #0866ff;
+    margin-bottom: 30px;
+}
+hr{
+    margin: 10px 0px 10px;
+    opacity: 45%;
+    
+}
+.create-account{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid white;
+    margin-top: 10px;
+    border-radius: 10px;
+    background-color: #42b72a;
+    box-shadow: 5ox 5px 7px white;
+    
+    
+}
+#create-account{
+    padding-top: 10px;
+    height: 15px;
+    color: white;
+    font-weight:900 ;
+    
+}
+.page{
+    text-align: end;
+    margin-right: 90px;
+}
+.page-creation{
+    color: black;
+    
+}
